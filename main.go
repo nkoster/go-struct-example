@@ -42,5 +42,5 @@ func main() {
 	fmt.Println(p3.firstName, p3.contact.email)
 	p3.updateName("Aap")
 	p3.print()
-	fmt.Println(&p3)
+	fmt.Println(p3)
 }
